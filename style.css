@@ -1,0 +1,37 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #ffffff;
+    color : #444;
+    line-height: 1.5;
+}
+
+h1, h3 {
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: -20px;
+}
+img {
+    border: 5px black solid;
+    height: 500px;
+    width: 500px;
+    display: block;
+    margin: 100px auto;
+}
+
+p {
+    margin : 50px;
+    
+}
+
+ul, ol {
+    margin: 50px;
+    
+}
